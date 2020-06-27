@@ -1,0 +1,49 @@
+@import url(href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  background-color: #805BA5;
+/*   background-image: url(purple-abstract-art-3109807.jpg) */    
+}
+
+img {
+  border-radius: 25%;
+  float: left;
+  margin: 25px;
+  filter: contrast(100%);
+  filter: drop-shadow(8px 8px 10px #000);
+}
+
+li:nth-child( odd ) {
+  background-color: #805BA5;
+}
+
+.nav-link {
+  font-family: Open Sans;
+}
+
+.jumbotron {
+ background-color: #BC519E;
+background-image:url("https://www.transparenttextures.com/patterns/gplay.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
